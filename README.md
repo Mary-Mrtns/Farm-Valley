@@ -68,9 +68,9 @@ Este projeto usa apenas Python puro, sem bibliotecas externas, construído em ci
  
 ## O que aprendi construindo isso
  
-O maior aprendizado veio de um bug real encontrado durante o desenvolvimento: a variável que guardava a meta de crescimento da plantação era calculada antes da ação de plantar acontecer na mesma rodada. Resultado: ao plantar milho ou morango, a meta usada na verificação de colheita ainda era a de "nenhuma planta" (zero) — então a plantação "brotava" instantaneamente, sem precisar ser regada nenhuma vez.
+O maior aprendizado veio de um bug real encontrado durante o desenvolvimento: a variável que guardava a meta de crescimento da plantação era calculada antes da ação de plantar acontecer na mesma rodada. Resultado: ao plantar milho ou morango, a meta usada na verificação de colheita ainda era a de "nenhuma planta" (zero), então a plantação "brotava" instantaneamente, sem precisar ser regada nenhuma vez.
  
-A correção foi simples (recalcular a meta depois da ação, não antes), mas o processo de descobrir isso ensinou uma lição importante: testar só o "caminho feliz" não é suficiente. O bug só aparecia ao plantar qualquer coisa diferente da primeira semente gratuita do jogo — um teste um pouco mais completo já teria pego o problema antes.
+A correção foi simples (recalcular a meta depois da ação, não antes), mas o processo de descobrir isso ensinou uma lição importante: testar só o "caminho feliz" não é suficiente. O bug só aparecia ao plantar qualquer coisa diferente da primeira semente gratuita do jogo, um teste um pouco mais completo já teria pego o problema antes.
  
 ## Mais capturas de tela
  
