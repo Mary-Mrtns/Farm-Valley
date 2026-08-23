@@ -36,7 +36,7 @@ Clone o repositório ou baixe o arquivo `Farm_Valley.py` e rode o comando acima 
  
 No início da partida você escolhe um nome e uma classe. O Agricultor começa com 100 de energia máxima, habilidade de plantio 15, habilidade de pecuária 6 e sorte 5. O Pecuarista começa com 120 de energia máxima, habilidade de plantio 8, habilidade de pecuária 18 e sorte 8. O Herborista começa com 80 de energia máxima, habilidade de plantio 20, habilidade de pecuária 8 e sorte 10. O Pescador começa com 90 de energia máxima, habilidade de plantio 6, habilidade de pecuária 5 e sorte 15.
  
-Cada classe favorece uma estratégia diferente — o Pescador domina a pesca (usa sorte), o Pecuarista é imbatível cuidando de animais, o Herborista planta mais rápido que ninguém, e o Agricultor é o mais equilibrado.
+Cada classe favorece uma estratégia diferente, o Pescador domina a pesca (usa sorte), o Pecuarista é imbatível cuidando de animais, o Herborista planta mais rápido que ninguém, e o Agricultor é o mais equilibrado.
  
 ## Ações disponíveis
  
@@ -44,7 +44,7 @@ O menu principal oferece oito ações. Loja: comprar sementes, adubo, vara de pe
  
 ## Plantações
  
-A escolha da plantação é uma decisão estratégica real — não existe uma opção "melhor", só trade-offs diferentes.
+A escolha da plantação é uma decisão estratégica real, não existe uma opção "melhor", só trade-offs diferentes.
  
 A cenoura tem semente barata (3 moedas), cresce rápido e vende por 7 moedas. O milho tem semente cara (15 moedas), cresce muito devagar e vende por 30 moedas. O morango tem semente de preço médio (8 moedas), cresce em tempo médio, vende por 14 moedas e tem 25% de chance de render o dobro na colheita.
  
