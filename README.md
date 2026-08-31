@@ -82,4 +82,8 @@ A correção foi simples (recalcular a meta depois da ação, não antes), mas o
  
 - [ ] Refatorar blocos repetidos da loja em funções (`def`)
 - [ ] Adicionar mais tipos de peixe e um sistema de estações do ano
-- [ ] Salvar o progresso em arquivo para continuar de onde parou
+- [ ] Salvar o progresso em arquivo para continuar de onde parou  
+
+## Sobre mim
+
+Sou a Mariany, estudante de Engenharia de Software, e desenvolvi o Farm Valley como projeto de programação para a disciplina de Python. Quis criar algo além de um exercício convencional de dungeon, unindo lógica de programação a uma estética acolhedora.
