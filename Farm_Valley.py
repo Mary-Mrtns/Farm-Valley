@@ -1,5 +1,13 @@
 import random
 
+mensagens_colheita = [
+    "Que colheita linda!",
+    "Uau, cresceu rápido!",
+    "Mais uma pra sua coleção!",
+    "A terra te agradece!",
+    "Colheita no capricho!"
+]
+
 print("=" * 60)
 print("\nBem vindo(a) à Farm Valley!\n")
 print("=" * 60)
@@ -510,6 +518,7 @@ while energia_atual > 0:
 
     #verificar plantação
     if plantado == 1 and saude_plantacao >= meta_atual:
+        print(random.choice(mensagens_colheita))
         if plantado_tipo == 1:
             estoque_cenoura = estoque_cenoura + 1
             print(f"\nSua cenoura cresceu por completo! Total de cenouras: {estoque_cenoura}")
