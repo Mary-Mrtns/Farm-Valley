@@ -78,7 +78,7 @@ A correção foi simples (recalcular a meta depois da ação, não antes), mas o
  
 ![Cuidando das galinhas](assets/screenshot-animais.png)
  
-## Possíveis Updates
+## Possíveis Updates - Em breve
  
 - [ ] Refatorar blocos repetidos da loja em funções (`def`)
 - [ ] Adicionar mais tipos de peixe e um sistema de estações do ano
