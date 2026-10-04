@@ -82,7 +82,7 @@ A correção foi simples (recalcular a meta depois da ação, não antes), mas o
  
 - [ ] Refatorar blocos repetidos da loja em funções (`def`)
 - [ ] Adicionar mais tipos de peixe e um sistema de estações do ano
-- [x] Salvar o progresso em arquivo para continuar de onde parou  
+- [ ] Salvar o progresso em arquivo para continuar de onde parou  
 
 ## Sobre mim
 
