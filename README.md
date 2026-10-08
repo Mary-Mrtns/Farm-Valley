@@ -81,7 +81,7 @@ A correção foi simples (recalcular a meta depois da ação, não antes), mas o
 ## Possíveis Updates - Em breve
  
 - [ ] Refatorar blocos repetidos da loja em funções (`def`)
-- [ ] Salvar o progresso em arquivo para continuar de onde parou  
+- [x] Salvar o progresso em arquivo para continuar de onde parou  
 
 ## Sobre mim
 
