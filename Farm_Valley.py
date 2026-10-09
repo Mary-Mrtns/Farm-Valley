@@ -514,7 +514,7 @@ while energia_atual > 0:
 
         if cultivo_colhido.chance_dobro > 0 and random.randint(1, 100) <= cultivo_colhido.chance_dobro:
             estoque_cultivo[indice_colhido] = estoque_cultivo[indice_colhido] + 2
-            print(f"\n🍓 Sorte grande! {cultivo_colhido.possessivo} {cultivo_colhido.nome.lower()} rendeu o DOBRO da colheita! Total de {cultivo_colhido.nome.lower()}s: {estoque_cultivo[indice_colhido]}")
+            print(f"\n Sorte grande! {cultivo_colhido.possessivo} {cultivo_colhido.nome.lower()} rendeu o DOBRO da colheita! Total de {cultivo_colhido.nome.lower()}s: {estoque_cultivo[indice_colhido]}")
         else:
             estoque_cultivo[indice_colhido] = estoque_cultivo[indice_colhido] + 1
             print(f"\n{cultivo_colhido.possessivo} {cultivo_colhido.nome.lower()} cresceu por completo! Total de {cultivo_colhido.nome.lower()}s: {estoque_cultivo[indice_colhido]}")
